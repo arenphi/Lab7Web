@@ -91,6 +91,7 @@ if (isset($_POST['nama'])) {
 - `method="post"`: data dikirim melalui HTTP POST.
 - `isset($_POST['nama'])`: memastikan input sudah dikirim agar tidak muncul error.
 - `htmlspecialchars()` mencegah script berbahaya dimasukkan ke input.
+
 Hasil:
 ![image](img/4.png)
 
@@ -110,6 +111,7 @@ echo "Gaji yang dibawa pulang = Rp. $thp";
 - `$pajak` = 10% dari gaji.
 - `$thp` = hasil perhitungan gaji bersih.
 - Operator `-` dan `*` digunakan untuk pengurangan dan perkalian.
+
 Output:
 ![image](img/5.png)
 
@@ -131,6 +133,7 @@ if ($nama_hari == "Sunday") {
 - `date("l")` menghasilkan nama hari (Sunday, Monday, dll).
 - `if`, `elseif`, dan `else` digunakan untuk membandingkan nilai.
 - Hasil akan berbeda tergantung hari saat dijalankan.
+
 Output:
 ![image](img/6.png)
 
@@ -157,6 +160,7 @@ switch ($nama_hari) {
 ### Penjelasan
 - `switch` digunakan untuk memilih kondisi dari banyak kemungkinan.
 - `break` menghentikan eksekusi setelah satu kondisi cocok.
+
 Output:
 ![image](img/7.png)
 
@@ -178,6 +182,7 @@ for ($i = 10; $i >= 1; $i--) {
 ### Penjelasan
 - `for` digunakan untuk perulangan dengan batas tertentu.
 - `$i++` menaikkan nilai, `$i--` menurunkan nilai.
+
 Output:
 ![image](img/8.png)
 
@@ -196,6 +201,7 @@ while ($i <= 10) {
 ### Penjelasan
 - Perulangan terus berjalan selama kondisi `$i <= 10` terpenuhi.
 - `$i++` meningkatkan nilai variabel setiap loop.
+
 Output:
 ![image](img/9.png)
 
@@ -213,6 +219,8 @@ do {
 ```
 ### Penjelasan
 - `do...while` menjalankan blok kode setidaknya satu kali, baru memeriksa kondisi.
+
+Output:
 ![image](img/10.png)
 
 ## Tugas
@@ -277,5 +285,6 @@ if (isset($_POST['nama']) && isset($_POST['tgl_lahir']) && isset($_POST['pekerja
 - `date_diff()` menghitung selisih tahun antara tanggal lahir dan hari ini.
 - `switch` menentukan besaran gaji.
 - `number_format()` membuat tampilan gaji lebih rapi.
+
 Output:
-![image](img/11.png)
+![image](img/a.png)
