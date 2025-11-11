@@ -92,7 +92,7 @@ if (isset($_POST['nama'])) {
 - `isset($_POST['nama'])`: memastikan input sudah dikirim agar tidak muncul error.
 - `htmlspecialchars()` mencegah script berbahaya dimasukkan ke input.
 Hasil:
-img
+![image](img/4.png)
 
 ### 5. Operator Aritmatika
 
@@ -111,7 +111,7 @@ echo "Gaji yang dibawa pulang = Rp. $thp";
 - `$thp` = hasil perhitungan gaji bersih.
 - Operator `-` dan `*` digunakan untuk pengurangan dan perkalian.
 Output:
-img
+![image](img/5.png)
 
 ### 6. Kodisi IF
 
@@ -132,7 +132,7 @@ if ($nama_hari == "Sunday") {
 - `if`, `elseif`, dan `else` digunakan untuk membandingkan nilai.
 - Hasil akan berbeda tergantung hari saat dijalankan.
 Output:
-img
+![image](img/6.png)
 
 ### 7. Kondisi SWITCH
 
@@ -158,7 +158,7 @@ switch ($nama_hari) {
 - `switch` digunakan untuk memilih kondisi dari banyak kemungkinan.
 - `break` menghentikan eksekusi setelah satu kondisi cocok.
 Output:
-img
+![image](img/7.png)
 
 ### 8. Perulangan FOR
 
@@ -179,7 +179,7 @@ for ($i = 10; $i >= 1; $i--) {
 - `for` digunakan untuk perulangan dengan batas tertentu.
 - `$i++` menaikkan nilai, `$i--` menurunkan nilai.
 Output:
-img
+![image](img/8.png)
 
 ### 9. Perulangan While
 
@@ -197,9 +197,9 @@ while ($i <= 10) {
 - Perulangan terus berjalan selama kondisi `$i <= 10` terpenuhi.
 - `$i++` meningkatkan nilai variabel setiap loop.
 Output:
-img
+![image](img/9.png)
 
-### Perulangan DO WHILE
+### 10. Perulangan DO WHILE
 
 ```
 <?php
