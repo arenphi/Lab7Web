@@ -28,6 +28,7 @@ File: `php.dasar`
 - `echo "Hello World";` digunakan untuk menampilkan teks di browser.
 
 Output:
+![image](img/1.png)
 
 ### 2. Variabel PHP
 
@@ -45,6 +46,7 @@ echo "Nama : $nama";
 - `<br>` menambah baris baru di HTML.
 
 Output:
+![image](img/2.png)
 
 ### 3. Predefined Variable `$_GET`
 
@@ -57,7 +59,7 @@ echo 'Selamat Datang ' . $_GET['nama'];
 - `$_GET['nama']` mengambil data dari URL.
 - Contoh: `http://localhost/lab7_php_dasar/latihan2.php?nama=Reynaldi`
 - maka hasilnya
-img
+![image](img/3.png)
 
 ### 4. Form Input (Metode Post)
 
