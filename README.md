@@ -1,5 +1,5 @@
 # Praktikum 7-PHP Dasar
-Nama : Reynaldi Nugraha Putra
+Nama : Reynaldi Nugraha Putra <br>
 NIM  : 312410278
 Kelas: TI.24.A.3
 Matakuliah : Pemrograman Web Pert 9
