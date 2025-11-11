@@ -5,7 +5,7 @@ Kelas : TI.24.A.3 <br>
 Matakuliah : Pemrograman Web Pert 9 <br>
 
 ### 1. PHP Dasar
-File: `php.dasar`
+File: `php_dasar.php`
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -31,7 +31,7 @@ Output:
 ![image](img/1.png)
 
 ### 2. Variabel PHP
-
+File: `variabel.php`
 ```
 <?php 
 $nim = "312410278"; 
@@ -49,7 +49,7 @@ Output:
 ![image](img/2.png)
 
 ### 3. Predefined Variable `$_GET`
-
+File: `latihan2.php`
 ```
 <?php
 echo 'Selamat Datang ' . $_GET['nama'];
@@ -62,7 +62,7 @@ echo 'Selamat Datang ' . $_GET['nama'];
 ![image](img/3.png)
 
 ### 4. Form Input (Metode Post)
-
+File: `form_input.php`
 ```
 <!DOCTYPE html>
 <html lang="id">
@@ -95,7 +95,7 @@ Hasil:
 ![image](img/4.png)
 
 ### 5. Operator Aritmatika
-
+File: `operator.php`
 ```
 <?php
 $gaji = 1000000;
@@ -114,7 +114,7 @@ Output:
 ![image](img/5.png)
 
 ### 6. Kodisi IF
-
+File: `kondisi_if.php`
 ```
 <?php
 $nama_hari = date("l");
@@ -135,7 +135,7 @@ Output:
 ![image](img/6.png)
 
 ### 7. Kondisi SWITCH
-
+File: `kondisi_switch.php`
 ```
 <?php
 $nama_hari = date("l");
@@ -161,7 +161,7 @@ Output:
 ![image](img/7.png)
 
 ### 8. Perulangan FOR
-
+File: `perulangan_for.php`
 ```
 <?php
 echo "Perulangan 1 sampai 10 <br />";
@@ -182,7 +182,7 @@ Output:
 ![image](img/8.png)
 
 ### 9. Perulangan While
-
+File: `perulangan_while.php`
 ```
 <?php
 echo "Perulangan 1 sampai 10 <br />";
@@ -200,7 +200,7 @@ Output:
 ![image](img/9.png)
 
 ### 10. Perulangan DO WHILE
-
+File: `perulangan_dowhile.php`
 ```
 <?php
 echo "Perulangan 1 sampai 10 <br />";
@@ -213,10 +213,10 @@ do {
 ```
 ### Penjelasan
 - `do...while` menjalankan blok kode setidaknya satu kali, baru memeriksa kondisi.
-
+![image](img/10.png)
 
 ## Tugas
-
+File: `tugas.php`
 ```
 <!DOCTYPE html>
 <html lang="id">
@@ -278,4 +278,4 @@ if (isset($_POST['nama']) && isset($_POST['tgl_lahir']) && isset($_POST['pekerja
 - `switch` menentukan besaran gaji.
 - `number_format()` membuat tampilan gaji lebih rapi.
 Output:
-img
+![image](img/11.png)
